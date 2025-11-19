@@ -10,7 +10,7 @@ export function Footer() {
           {/* Social Links */}
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com/seuusuario"
+              href="hhttps://github.com/kalveslima"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -19,7 +19,7 @@ export function Footer() {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/seuusuario"
+              href="www.linkedin.com/in/kauanalveslima"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -28,7 +28,7 @@ export function Footer() {
               <Linkedin size={20} />
             </a>
             <a
-              href="mailto:seu@email.com"
+              href="mailto:k.avles1427@gmail.com"
               className="text-muted-foreground hover:text-foreground transition-colors"
               aria-label="Email"
             >
@@ -38,7 +38,7 @@ export function Footer() {
 
           {/* Copyright */}
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <span>© {currentYear} Seu Nome.</span>
+            <span>© {currentYear} kauan alves lima.</span>
             <span className="hidden sm:inline">Feito com</span>
             <Heart size={14} className="text-primary fill-primary" />
             <span className="hidden sm:inline">usando Next.js</span>

@@ -216,7 +216,7 @@ function Footer() {
                         className: "flex items-center gap-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "https://github.com/seuusuario",
+                                href: "hhttps://github.com/kalveslima",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 className: "text-muted-foreground hover:text-foreground transition-colors",
@@ -234,7 +234,7 @@ function Footer() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "https://linkedin.com/in/seuusuario",
+                                href: "www.linkedin.com/in/kauanalveslima",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 className: "text-muted-foreground hover:text-foreground transition-colors",
@@ -252,7 +252,7 @@ function Footer() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "mailto:seu@email.com",
+                                href: "mailto:k.avles1427@gmail.com",
                                 className: "text-muted-foreground hover:text-foreground transition-colors",
                                 "aria-label": "Email",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
@@ -280,7 +280,7 @@ function Footer() {
                                 children: [
                                     "© ",
                                     currentYear,
-                                    " Seu Nome."
+                                    " kauan alves lima."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/footer.tsx",

@@ -31,14 +31,17 @@ const skills = [
 ]
 
 const technologies = [
-  'JavaScript',
+  'python',
   'TypeScript',
   'React',
   'Next.js',
-  'Node.js',
   'Tailwind CSS',
   'Git',
   'PostgreSQL',
+  'Docker',
+  'java',
+  'IA ',
+ 
 ]
 
 export function AboutSection() {

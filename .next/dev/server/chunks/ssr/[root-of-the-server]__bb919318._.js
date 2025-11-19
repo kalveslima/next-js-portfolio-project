@@ -72,7 +72,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$p
 ;
 ;
 const metadata = {
-    title: 'Seu Nome | Desenvolvedor Full Stack',
+    title: 'kauan alves  | Desenvolvedor Full Stack',
     description: 'Portfólio profissional de desenvolvimento web. Especializado em React, Next.js e TypeScript. Criando experiências digitais modernas e acessíveis.',
     keywords: [
         'desenvolvedor',
@@ -84,12 +84,12 @@ const metadata = {
     ],
     authors: [
         {
-            name: 'Seu Nome'
+            name: 'kauan alves'
         }
     ],
     generator: 'v0.app',
     openGraph: {
-        title: 'Seu Nome | Desenvolvedor Full Stack',
+        title: 'kauan alves | Desenvolvedor Full Stack',
         description: 'Portfólio profissional de desenvolvimento web',
         type: 'website'
     },

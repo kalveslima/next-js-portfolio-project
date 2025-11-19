@@ -7,13 +7,13 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Seu Nome | Desenvolvedor Full Stack',
+  title: 'kauan alves  | Desenvolvedor Full Stack',
   description: 'Portfólio profissional de desenvolvimento web. Especializado em React, Next.js e TypeScript. Criando experiências digitais modernas e acessíveis.',
   keywords: ['desenvolvedor', 'full stack', 'react', 'next.js', 'typescript', 'portfolio'],
-  authors: [{ name: 'Seu Nome' }],
+  authors: [{ name: 'kauan alves' }],
   generator: 'v0.app',
   openGraph: {
-    title: 'Seu Nome | Desenvolvedor Full Stack',
+    title: 'kauan alves | Desenvolvedor Full Stack',
     description: 'Portfólio profissional de desenvolvimento web',
     type: 'website',
   },

@@ -610,14 +610,16 @@ const skills = [
     }
 ];
 const technologies = [
-    'JavaScript',
+    'python',
     'TypeScript',
     'React',
     'Next.js',
-    'Node.js',
     'Tailwind CSS',
     'Git',
-    'PostgreSQL'
+    'PostgreSQL',
+    'Docker',
+    'java',
+    'IA '
 ];
 function AboutSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -636,20 +638,20 @@ function AboutSection() {
                                 children: "Sobre Mim"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                                lineNumber: 51,
+                                lineNumber: 54,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "w-20 h-1 bg-primary mx-auto"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                                lineNumber: 54,
+                                lineNumber: 57,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                        lineNumber: 50,
+                        lineNumber: 53,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -660,7 +662,7 @@ function AboutSection() {
                                 children: "Sou um desenvolvedor apaixonado por tecnologia e inovação, com foco em criar soluções digitais que transformam ideias em realidade. Minha jornada no desenvolvimento web começou há alguns anos, e desde então tenho me dedicado a aprender e evoluir constantemente."
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                                lineNumber: 59,
+                                lineNumber: 62,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -668,13 +670,13 @@ function AboutSection() {
                                 children: "Meu objetivo é desenvolver aplicações que não apenas funcionem bem, mas que proporcionem experiências memoráveis aos usuários. Acredito que a tecnologia deve ser acessível, intuitiva e inclusiva para todos."
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                                lineNumber: 66,
+                                lineNumber: 69,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                        lineNumber: 58,
+                        lineNumber: 61,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -693,12 +695,12 @@ function AboutSection() {
                                                 size: 24
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                                                lineNumber: 85,
+                                                lineNumber: 88,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                                            lineNumber: 84,
+                                            lineNumber: 87,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -706,7 +708,7 @@ function AboutSection() {
                                             children: skill.title
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                                            lineNumber: 87,
+                                            lineNumber: 90,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -714,24 +716,24 @@ function AboutSection() {
                                             children: skill.description
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                                            lineNumber: 90,
+                                            lineNumber: 93,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                                    lineNumber: 83,
+                                    lineNumber: 86,
                                     columnNumber: 19
                                 }, this)
                             }, skill.title, false, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                                lineNumber: 79,
+                                lineNumber: 82,
                                 columnNumber: 17
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                        lineNumber: 75,
+                        lineNumber: 78,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -742,7 +744,7 @@ function AboutSection() {
                                 children: "Tecnologias que Utilizo"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                                lineNumber: 101,
+                                lineNumber: 104,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -752,34 +754,34 @@ function AboutSection() {
                                         children: tech
                                     }, tech, false, {
                                         fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                                        lineNumber: 106,
+                                        lineNumber: 109,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                                lineNumber: 104,
+                                lineNumber: 107,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                        lineNumber: 100,
+                        lineNumber: 103,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-                lineNumber: 48,
+                lineNumber: 51,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-            lineNumber: 47,
+            lineNumber: 50,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Downloads/next-js-portfolio-project/components/about-section.tsx",
-        lineNumber: 46,
+        lineNumber: 49,
         columnNumber: 5
     }, this);
 }
