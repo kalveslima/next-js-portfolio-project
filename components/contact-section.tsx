@@ -33,14 +33,14 @@ export function ContactSection() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'seu@email.com',
-      href: 'mailto:seu@email.com',
+      value: 'k.alves1427@gmail.com',
+      href: 'mailto:k.alves1427@gmail.com',
     },
     {
       icon: Phone,
       label: 'Telefone',
-      value: '+55 (11) 99999-9999',
-      href: 'tel:+5511999999999',
+      value: '+55 (11) 954610490',
+      href: 'tel:+5511954610490',
     },
     {
       icon: MapPin,
@@ -127,7 +127,7 @@ export function ContactSection() {
                       <Input
                         id="name"
                         type="text"
-                        placeholder="Seu nome completo"
+                        placeholder="seu nome completo"
                         value={formData.name}
                         onChange={(e) =>
                           setFormData({ ...formData, name: e.target.value })
@@ -146,7 +146,7 @@ export function ContactSection() {
                       <Input
                         id="email"
                         type="email"
-                        placeholder="seu@email.com"
+                        placeholder="seu@gmail.com"
                         value={formData.email}
                         onChange={(e) =>
                           setFormData({ ...formData, email: e.target.value })

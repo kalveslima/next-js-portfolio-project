@@ -37,7 +37,7 @@ export function Navigation() {
             href="#inicio"
             className="text-xl font-bold text-foreground hover:text-primary transition-colors"
           >
-            {'<Seu Nome />'}
+            {'<kauan />'}
           </a>
 
           {/* Desktop Navigation */}

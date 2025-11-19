@@ -5,40 +5,32 @@ import { Card, CardContent, CardFooter } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 
 const projects = [
+  
   {
-    title: 'E-commerce Moderno',
+    title: 'site feito para intervenção de uma ONG',
     description:
-      'Plataforma completa de e-commerce com carrinho de compras, sistema de pagamento integrado e painel administrativo.',
-    image: '/modern-ecommerce-dashboard.png',
-    tags: ['Next.js', 'TypeScript', 'Stripe', 'Tailwind'],
-    liveUrl: 'https://example.com',
+      'Site institucional para ONG, com informações sobre projetos, equipe e formulário de contato.',
+    image: '/siteong.png',
+    tags: ['React', 'Next.js', 'Tailwind', 'Vercel'],
+    liveUrl: 'https://intinerario-extensionista.vercel.app',
     githubUrl: 'https://github.com/seuusuario/projeto',
   },
   {
-    title: 'Aplicativo de Gestão',
+    title: 'Mywork portifolios personalizados',
     description:
-      'Sistema de gestão de tarefas e projetos com funcionalidades de colaboração em tempo real e notificações.',
-    image: '/task-management-app.png',
-    tags: ['React', 'Node.js', 'PostgreSQL', 'Socket.io'],
-    liveUrl: 'https://example.com',
+      'portifolios personalizados para profissionais de diversas áreas, com design responsivo e otimização SEO.',
+    image: '/mywork.png',
+    tags: ['Next.js','Tailwind', 'Vercel'],
+    liveUrl: 'https://mywork-portifolios-personalizados.vercel.app',
     githubUrl: 'https://github.com/seuusuario/projeto',
   },
   {
-    title: 'Dashboard Analytics',
+    title: 'sistema de agendamento odontológico',
     description:
-      'Painel de análise de dados com gráficos interativos, métricas em tempo real e exportação de relatórios.',
-    image: '/analytics-dashboard.png',
-    tags: ['Next.js', 'Chart.js', 'API REST', 'Tailwind'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/seuusuario/projeto',
-  },
-  {
-    title: 'Blog Pessoal',
-    description:
-      'Blog com sistema de CMS headless, otimização SEO, modo escuro e sistema de comentários integrado.',
-    image: '/clean-blog-website-design.jpg',
-    tags: ['Next.js', 'MDX', 'Contentful', 'SEO'],
-    liveUrl: 'https://example.com',
+      'Sistema completo de agendamento para clínicas odontológicas, com gerenciamento de pacientes e lembretes automáticos.',
+    image: '/odonto.png',
+    tags: ['Next.js', 'Tailwind', 'Vercel','prisma','SQlite'],
+    liveUrl: 'https://odonto-lab.vercel.app',
     githubUrl: 'https://github.com/seuusuario/projeto',
   },
   {

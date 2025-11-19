@@ -61,7 +61,7 @@ function Navigation() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                             href: "#inicio",
                             className: "text-xl font-bold text-foreground hover:text-primary transition-colors",
-                            children: '<Seu Nome />'
+                            children: '<kauan />'
                         }, void 0, false, {
                             fileName: "[project]/Downloads/next-js-portfolio-project/components/navigation.tsx",
                             lineNumber: 36,
@@ -811,55 +811,42 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$p
 ;
 const projects = [
     {
-        title: 'E-commerce Moderno',
-        description: 'Plataforma completa de e-commerce com carrinho de compras, sistema de pagamento integrado e painel administrativo.',
-        image: '/modern-ecommerce-dashboard.png',
-        tags: [
-            'Next.js',
-            'TypeScript',
-            'Stripe',
-            'Tailwind'
-        ],
-        liveUrl: 'https://example.com',
-        githubUrl: 'https://github.com/seuusuario/projeto'
-    },
-    {
-        title: 'Aplicativo de Gestão',
-        description: 'Sistema de gestão de tarefas e projetos com funcionalidades de colaboração em tempo real e notificações.',
-        image: '/task-management-app.png',
+        title: 'site feito para intervenção de uma ONG',
+        description: 'Site institucional para ONG, com informações sobre projetos, equipe e formulário de contato.',
+        image: '/siteong.png',
         tags: [
             'React',
-            'Node.js',
-            'PostgreSQL',
-            'Socket.io'
+            'Next.js',
+            'Tailwind',
+            'Vercel'
         ],
-        liveUrl: 'https://example.com',
+        liveUrl: 'https://intinerario-extensionista.vercel.app',
         githubUrl: 'https://github.com/seuusuario/projeto'
     },
     {
-        title: 'Dashboard Analytics',
-        description: 'Painel de análise de dados com gráficos interativos, métricas em tempo real e exportação de relatórios.',
-        image: '/analytics-dashboard.png',
+        title: 'Mywork portifolios personalizados',
+        description: 'portifolios personalizados para profissionais de diversas áreas, com design responsivo e otimização SEO.',
+        image: '/mywork.png',
         tags: [
             'Next.js',
-            'Chart.js',
-            'API REST',
-            'Tailwind'
+            'Tailwind',
+            'Vercel'
         ],
-        liveUrl: 'https://example.com',
+        liveUrl: 'https://mywork-portifolios-personalizados.vercel.app',
         githubUrl: 'https://github.com/seuusuario/projeto'
     },
     {
-        title: 'Blog Pessoal',
-        description: 'Blog com sistema de CMS headless, otimização SEO, modo escuro e sistema de comentários integrado.',
-        image: '/clean-blog-website-design.jpg',
+        title: 'sistema de agendamento odontológico',
+        description: 'Sistema completo de agendamento para clínicas odontológicas, com gerenciamento de pacientes e lembretes automáticos.',
+        image: '/odonto.png',
         tags: [
             'Next.js',
-            'MDX',
-            'Contentful',
-            'SEO'
+            'Tailwind',
+            'Vercel',
+            'prisma',
+            'SQlite'
         ],
-        liveUrl: 'https://example.com',
+        liveUrl: 'https://odonto-lab.vercel.app',
         githubUrl: 'https://github.com/seuusuario/projeto'
     },
     {
@@ -906,14 +893,14 @@ function ProjectsSection() {
                                 children: "Projetos"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                lineNumber: 71,
+                                lineNumber: 63,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "w-20 h-1 bg-primary mx-auto"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                lineNumber: 74,
+                                lineNumber: 66,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -921,13 +908,13 @@ function ProjectsSection() {
                                 children: "Alguns dos projetos que desenvolvi. Cada um representa um desafio único e uma oportunidade de aprendizado."
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                lineNumber: 75,
+                                lineNumber: 67,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                        lineNumber: 70,
+                        lineNumber: 62,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -943,12 +930,12 @@ function ProjectsSection() {
                                             className: "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                            lineNumber: 89,
+                                            lineNumber: 81,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 80,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -959,7 +946,7 @@ function ProjectsSection() {
                                                 children: project.title
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                lineNumber: 96,
+                                                lineNumber: 88,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -967,7 +954,7 @@ function ProjectsSection() {
                                                 children: project.description
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                lineNumber: 99,
+                                                lineNumber: 91,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -977,18 +964,18 @@ function ProjectsSection() {
                                                         children: tag
                                                     }, tag, false, {
                                                         fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                        lineNumber: 104,
+                                                        lineNumber: 96,
                                                         columnNumber: 23
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                lineNumber: 102,
+                                                lineNumber: 94,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                        lineNumber: 95,
+                                        lineNumber: 87,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardFooter"], {
@@ -1009,19 +996,19 @@ function ProjectsSection() {
                                                             size: 16
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                            lineNumber: 121,
+                                                            lineNumber: 113,
                                                             columnNumber: 25
                                                         }, this),
                                                         "Ver Projeto"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                    lineNumber: 116,
+                                                    lineNumber: 108,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                lineNumber: 115,
+                                                lineNumber: 107,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1039,52 +1026,52 @@ function ProjectsSection() {
                                                             size: 16
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                            lineNumber: 132,
+                                                            lineNumber: 124,
                                                             columnNumber: 23
                                                         }, this),
                                                         "Código"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                    lineNumber: 127,
+                                                    lineNumber: 119,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                lineNumber: 126,
+                                                lineNumber: 118,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                        lineNumber: 113,
+                                        lineNumber: 105,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, project.title, true, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                lineNumber: 84,
+                                lineNumber: 76,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                        lineNumber: 82,
+                        lineNumber: 74,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                lineNumber: 68,
+                lineNumber: 60,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-            lineNumber: 67,
+            lineNumber: 59,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-        lineNumber: 66,
+        lineNumber: 58,
         columnNumber: 5
     }, this);
 }
@@ -1210,14 +1197,14 @@ function ContactSection() {
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"],
             label: 'Email',
-            value: 'seu@email.com',
-            href: 'mailto:seu@email.com'
+            value: 'k.alves1427@gmail.com',
+            href: 'mailto:k.alves1427@gmail.com'
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"],
             label: 'Telefone',
-            value: '+55 (11) 99999-9999',
-            href: 'tel:+5511999999999'
+            value: '+55 (11) 954610490',
+            href: 'tel:+5511954610490'
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"],
@@ -1417,7 +1404,7 @@ function ContactSection() {
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
                                                                 id: "name",
                                                                 type: "text",
-                                                                placeholder: "Seu nome completo",
+                                                                placeholder: "seu nome completo",
                                                                 value: formData.name,
                                                                 onChange: (e)=>setFormData({
                                                                         ...formData,
@@ -1451,7 +1438,7 @@ function ContactSection() {
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
                                                                 id: "email",
                                                                 type: "email",
-                                                                placeholder: "seu@email.com",
+                                                                placeholder: "seu@gmail.com",
                                                                 value: formData.email,
                                                                 onChange: (e)=>setFormData({
                                                                         ...formData,
