@@ -87,20 +87,20 @@ const metadata = {
             name: 'kauan alves'
         }
     ],
-    generator: 'v0.app',
+    generator: '',
     openGraph: {
-        title: 'kauan alves | Desenvolvedor Full Stack',
+        title: 'KAUAN ALVES | Desenvolvedor Full Stack',
         description: 'Portfólio profissional de desenvolvimento web',
         type: 'website'
     },
     icons: {
         icon: [
             {
-                url: '/icon-light-32x32.png',
+                url: '/icon.svg',
                 media: '(prefers-color-scheme: light)'
             },
             {
-                url: '/icon-dark-32x32.png',
+                url: '/icon.svg',
                 media: '(prefers-color-scheme: dark)'
             },
             {

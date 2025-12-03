@@ -11,20 +11,20 @@ export const metadata: Metadata = {
   description: 'Portfólio profissional de desenvolvimento web. Especializado em React, Next.js e TypeScript. Criando experiências digitais modernas e acessíveis.',
   keywords: ['desenvolvedor', 'full stack', 'react', 'next.js', 'typescript', 'portfolio'],
   authors: [{ name: 'kauan alves' }],
-  generator: 'v0.app',
+  generator: '',
   openGraph: {
-    title: 'kauan alves | Desenvolvedor Full Stack',
+    title: 'KAUAN ALVES | Desenvolvedor Full Stack',
     description: 'Portfólio profissional de desenvolvimento web',
     type: 'website',
   },
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/icon.svg',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/icon.svg',
         media: '(prefers-color-scheme: dark)',
       },
       {

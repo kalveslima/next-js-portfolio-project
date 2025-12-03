@@ -767,7 +767,7 @@ const projects = [
             'Vercel'
         ],
         liveUrl: 'https://intinerario-extensionista.vercel.app',
-        githubUrl: 'https://github.com/seuusuario/projeto'
+        githubUrl: 'https://github.com/kalveslima/intinerario_extensionista'
     },
     {
         title: 'Mywork portifolios personalizados',
@@ -793,33 +793,7 @@ const projects = [
             'SQlite'
         ],
         liveUrl: 'https://odonto-lab.vercel.app',
-        githubUrl: 'https://github.com/seuusuario/projeto'
-    },
-    {
-        title: 'App de Fitness',
-        description: 'Aplicação para acompanhamento de treinos, nutrição e metas pessoais com gráficos de progresso.',
-        image: '/fitness-tracking-app.png',
-        tags: [
-            'React Native',
-            'Firebase',
-            'Charts',
-            'PWA'
-        ],
-        liveUrl: 'https://example.com',
-        githubUrl: 'https://github.com/seuusuario/projeto'
-    },
-    {
-        title: 'API de Autenticação',
-        description: 'Sistema completo de autenticação com JWT, refresh tokens, verificação de email e recuperação de senha.',
-        image: '/secure-authentication.png',
-        tags: [
-            'Node.js',
-            'Express',
-            'JWT',
-            'MongoDB'
-        ],
-        liveUrl: null,
-        githubUrl: 'https://github.com/seuusuario/projeto'
+        githubUrl: 'https://github.com/kalveslima/odonto-lab'
     }
 ];
 function ProjectsSection() {
@@ -839,14 +813,14 @@ function ProjectsSection() {
                                 children: "Projetos"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                lineNumber: 63,
+                                lineNumber: 46,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "w-20 h-1 bg-primary mx-auto"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                lineNumber: 66,
+                                lineNumber: 49,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -854,13 +828,13 @@ function ProjectsSection() {
                                 children: "Alguns dos projetos que desenvolvi. Cada um representa um desafio único e uma oportunidade de aprendizado."
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                lineNumber: 67,
+                                lineNumber: 50,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                        lineNumber: 62,
+                        lineNumber: 45,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -876,12 +850,12 @@ function ProjectsSection() {
                                             className: "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 64,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                        lineNumber: 80,
+                                        lineNumber: 63,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -892,7 +866,7 @@ function ProjectsSection() {
                                                 children: project.title
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                lineNumber: 88,
+                                                lineNumber: 71,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -900,7 +874,7 @@ function ProjectsSection() {
                                                 children: project.description
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                lineNumber: 91,
+                                                lineNumber: 74,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -910,18 +884,18 @@ function ProjectsSection() {
                                                         children: tag
                                                     }, tag, false, {
                                                         fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                        lineNumber: 96,
+                                                        lineNumber: 79,
                                                         columnNumber: 23
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                lineNumber: 94,
+                                                lineNumber: 77,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                        lineNumber: 87,
+                                        lineNumber: 70,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardFooter"], {
@@ -942,19 +916,19 @@ function ProjectsSection() {
                                                             size: 16
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                            lineNumber: 113,
+                                                            lineNumber: 96,
                                                             columnNumber: 25
                                                         }, this),
                                                         "Ver Projeto"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                    lineNumber: 108,
+                                                    lineNumber: 91,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                lineNumber: 107,
+                                                lineNumber: 90,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -972,52 +946,52 @@ function ProjectsSection() {
                                                             size: 16
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                            lineNumber: 124,
+                                                            lineNumber: 107,
                                                             columnNumber: 23
                                                         }, this),
                                                         "Código"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                    lineNumber: 119,
+                                                    lineNumber: 102,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                                lineNumber: 118,
+                                                lineNumber: 101,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                        lineNumber: 105,
+                                        lineNumber: 88,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, project.title, true, {
                                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                                lineNumber: 76,
+                                lineNumber: 59,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                        lineNumber: 74,
+                        lineNumber: 57,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-                lineNumber: 60,
+                lineNumber: 43,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-            lineNumber: 59,
+            lineNumber: 42,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Downloads/next-js-portfolio-project/components/projects-section.tsx",
-        lineNumber: 58,
+        lineNumber: 41,
         columnNumber: 5
     }, this);
 }

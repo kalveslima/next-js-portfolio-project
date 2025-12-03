@@ -13,7 +13,7 @@ const projects = [
     image: '/siteong.png',
     tags: ['React', 'Next.js', 'Tailwind', 'Vercel'],
     liveUrl: 'https://intinerario-extensionista.vercel.app',
-    githubUrl: 'https://github.com/seuusuario/projeto',
+    githubUrl: 'https://github.com/kalveslima/intinerario_extensionista',
   },
   {
     title: 'Mywork portifolios personalizados',
@@ -31,26 +31,9 @@ const projects = [
     image: '/odonto.png',
     tags: ['Next.js', 'Tailwind', 'Vercel','prisma','SQlite'],
     liveUrl: 'https://odonto-lab.vercel.app',
-    githubUrl: 'https://github.com/seuusuario/projeto',
+    githubUrl: 'https://github.com/kalveslima/odonto-lab',
   },
-  {
-    title: 'App de Fitness',
-    description:
-      'Aplicação para acompanhamento de treinos, nutrição e metas pessoais com gráficos de progresso.',
-    image: '/fitness-tracking-app.png',
-    tags: ['React Native', 'Firebase', 'Charts', 'PWA'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/seuusuario/projeto',
-  },
-  {
-    title: 'API de Autenticação',
-    description:
-      'Sistema completo de autenticação com JWT, refresh tokens, verificação de email e recuperação de senha.',
-    image: '/secure-authentication.png',
-    tags: ['Node.js', 'Express', 'JWT', 'MongoDB'],
-    liveUrl: null,
-    githubUrl: 'https://github.com/seuusuario/projeto',
-  },
+  
 ]
 
 export function ProjectsSection() {
