@@ -13,19 +13,19 @@ export function HeroSection() {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-4 animate-fade-in-up">
             <p className="text-sm sm:text-base text-muted-foreground uppercase tracking-wider">
-              Olá, meu nome é kauan
+              Olá, meu nome é 
             </p>
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-foreground text-balance">
-              Kauan Alves Lima 
+              Kauan 
             </h1>
             <h2 className="text-2xl sm:text-3xl md:text-4xl text-muted-foreground text-balance">
-              Desenvolvedor Full Stack
+              Dev Web & Analista de dados
             </h2>
           </div>
 
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed text-pretty">
             Construo experiências digitais modernas, acessíveis e performáticas.
-            Especializado em React, Next.js e TypeScript, com foco em criar
+            Especializado em React, Next.js, com foco em criar
             soluções que fazem a diferença.
           </p>
 

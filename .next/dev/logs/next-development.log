@@ -1,71 +1,7 @@
-[00:00:03.619] Server  LOG      ✓ Ready in 2.6s
-[00:00:15.525] Server  LOG      ○ Compiling / ...
-[00:00:28.119] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:28.119] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:28.119] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1769191294843}
-[00:32:25.135] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:32:25.488] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:32:25.489] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:32:25.489] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1769193212176}
-[02:48:14.723] Server  LOG      ✓ Compiled in 11s
-[02:48:20.062] Server  ERROR   TurbopackInternalError: Failed to write app endpoint /page
-
-Caused by:
-- Invariant: Expected to inject all injections, found // INJECT:pages
-
-Debug info:
-- Execution of get_written_endpoint_with_issues_operation failed
-- Execution of endpoint_write_to_disk failed
-- Execution of <AppEndpoint as Endpoint>::output failed
-- Failed to write app endpoint /page
-- Execution of AppEndpoint::output failed
-- Execution of get_app_page_entry failed
-- Invariant: Expected to inject all injections, found // INJECT:pages
-[02:48:23.101] Server  LOG      ○ Compiling /_error ...
-[02:48:24.179] Server  ERROR    ⨯ TypeError: handler is not a function
-[02:48:24.337] Server  ERROR   file:///Users/kauan/Downloads/next-js-portfolio-project/node_modules/next/dist/pages/_document.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: TypeError [ERR_INVALID_ARG_TYPE]: The "payload" argument must be of type object. Received null
-[02:48:24.472] Server  ERROR   Error: Cannot find module '../shared/lib/constants'
-Require stack:
-- /Users/kauan/Downloads/next-js-portfolio-project/node_modules/next/dist/pages/_document.js
-- /Users/kauan/Downloads/next-js-portfolio-project/node_modules/next/dist/server/load-default-error-components.js
-- /Users/kauan/Downloads/next-js-portfolio-project/node_modules/next/dist/server/dev/next-dev-server.js
-- /Users/kauan/Downloads/next-js-portfolio-project/node_modules/next/dist/server/next.js
-- /Users/kauan/Downloads/next-js-portfolio-project/node_modules/next/dist/server/lib/start-server.js
-[02:49:03.157] Server  LOG      ✓ Compiled in 54ms
-[02:49:08.421] Server  LOG      ✓ Compiled in 110ms
-[02:49:08.959] Server  LOG      ✓ Compiled in 126ms
-[02:49:10.490] Server  LOG      ✓ Compiled in 54ms
-[02:49:16.595] Server  LOG      ✓ Compiled in 49ms
-[02:49:18.604] Server  LOG      ✓ Compiled in 100ms
-[02:49:19.833] Server  LOG      ✓ Compiled in 67ms
-[02:49:26.263] Server  LOG      ✓ Compiled in 126ms
-[02:49:27.197] Server  LOG      ✓ Compiled in 540ms
-[02:49:27.407] Server  LOG      ✓ Compiled in 37ms
-[02:49:27.666] Server  LOG      ✓ Compiled in 32ms
-[02:49:27.767] Server  LOG      ✓ Compiled in 37ms
-[02:49:30.307] Server  LOG      ✓ Compiled in 179ms
-[02:49:31.585] Server  LOG      ✓ Compiled in 200ms
-[02:49:33.075] Server  LOG      ✓ Compiled in 54ms
-[02:49:33.356] Server  LOG      ✓ Compiled in 76ms
-[02:49:34.739] Server  LOG      ✓ Compiled in 561ms
-[02:50:01.492] Server  LOG      ✓ Compiled in 239ms
-[02:50:13.193] Server  LOG      ✓ Compiled in 54ms
-[02:50:13.389] Server  LOG      ✓ Compiled in 127ms
-[02:50:13.463] Server  LOG      ✓ Compiled in 50ms
-[02:50:13.634] Server  LOG      ✓ Compiled in 85ms
-[02:50:13.857] Server  LOG      ✓ Compiled in 140ms
-[02:50:14.585] Server  LOG      ✓ Compiled in 363ms
-[02:50:14.836] Server  LOG      ✓ Compiled in 37ms
-[02:50:15.225] Server  LOG      ✓ Compiled in 293ms
-[02:50:15.552] Server  LOG      ✓ Compiled in 43ms
-[02:50:15.716] Server  LOG      ✓ Compiled in 42ms
-[02:50:16.435] Server  LOG      ✓ Compiled in 28ms
-[02:50:16.625] Server  LOG      ✓ Compiled in 29ms
-[02:50:16.829] Server  LOG      ✓ Compiled in 30ms
-[02:50:17.454] Server  LOG      ✓ Compiled in 41ms
-[02:50:17.942] Server  LOG      ✓ Compiled in 221ms
-[02:50:18.019] Server  LOG      ✓ Compiled in 36ms
-[02:50:19.457] Server  LOG      ✓ Compiled in 55ms
-[02:50:19.585] Server  LOG      ✓ Compiled in 35ms
-[02:50:20.294] Server  LOG      ✓ Compiled in 144ms
-[02:50:24.516] Server  LOG      ✓ Compiled in 1792ms
+[00:00:03.471] Server  LOG     ✓ Ready in 2.5s
+[00:00:11.613] Server  LOG     ○ Compiling / ...
+[00:00:20.149] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:21.060] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:21.060] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:21.060] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1769516891912}
+[00:12:13.094] Server  LOG     ✓ Compiled in 875ms

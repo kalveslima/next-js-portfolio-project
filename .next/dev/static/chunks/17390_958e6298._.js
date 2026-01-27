@@ -2,6 +2,7 @@
 "[project]/Downloads/next-js-portfolio-project/node_modules/next/dist/compiled/react/cjs/react-jsx-dev-runtime.development.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -10,8 +11,7 @@
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-"use strict";
+ */ "use strict";
 "production" !== ("TURBOPACK compile-time value", "development") && function() {
     function getComponentNameFromType(type) {
         if (null == type) return null;
@@ -229,18 +229,18 @@ else {
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/shared/src/utils.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * @license lucide-react v0.454.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "mergeClasses",
     ()=>mergeClasses,
     "toKebabCase",
     ()=>toKebabCase
 ]);
-const toKebabCase = (string)=>string.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ const toKebabCase = (string)=>string.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
 const mergeClasses = (...classes)=>classes.filter((className, index, array)=>{
         return Boolean(className) && className.trim() !== "" && array.indexOf(className) === index;
     }).join(" ").trim();
@@ -250,16 +250,16 @@ const mergeClasses = (...classes)=>classes.filter((className, index, array)=>{
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/defaultAttributes.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>defaultAttributes
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>defaultAttributes
-]);
-var defaultAttributes = {
+ */ var defaultAttributes = {
     xmlns: "http://www.w3.org/2000/svg",
     width: 24,
     height: 24,
@@ -276,16 +276,16 @@ var defaultAttributes = {
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/Icon.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Icon
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Icon
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$defaultAttributes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/defaultAttributes.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$shared$2f$src$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/shared/src/utils.js [app-client] (ecmascript)");
 ;
@@ -314,16 +314,16 @@ const Icon = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$ne
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>createLucideIcon
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>createLucideIcon
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$shared$2f$src$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/shared/src/utils.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$Icon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/Icon.js [app-client] (ecmascript)");
 ;
@@ -345,16 +345,16 @@ const createLucideIcon = (iconName, iconNode)=>{
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/icons/menu.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Menu
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Menu
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Menu = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Menu", [
     [
@@ -403,16 +403,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$p
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>X
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>X
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const X = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("X", [
     [
@@ -445,13 +445,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$p
 "[project]/Downloads/next-js-portfolio-project/node_modules/@radix-ui/react-compose-refs/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// packages/react/compose-refs/src/composeRefs.tsx
 __turbopack_context__.s([
     "composeRefs",
     ()=>composeRefs,
     "useComposedRefs",
     ()=>useComposedRefs
 ]);
+// packages/react/compose-refs/src/composeRefs.tsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 ;
 function setRef(ref, value) {
@@ -494,7 +494,6 @@ function useComposedRefs(...refs) {
 "[project]/Downloads/next-js-portfolio-project/node_modules/@radix-ui/react-slot/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// packages/react/slot/src/Slot.tsx
 __turbopack_context__.s([
     "Root",
     ()=>Root,
@@ -503,6 +502,7 @@ __turbopack_context__.s([
     "Slottable",
     ()=>Slottable
 ]);
+// packages/react/slot/src/Slot.tsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/@radix-ui/react-compose-refs/dist/index.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
@@ -635,6 +635,12 @@ const __TURBOPACK__default__export__ = clsx;
 "[project]/Downloads/next-js-portfolio-project/node_modules/class-variance-authority/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "cva",
+    ()=>cva,
+    "cx",
+    ()=>cx
+]);
 /**
  * Copyright 2022 Joe Bell. All rights reserved.
  *
@@ -649,13 +655,7 @@ const __TURBOPACK__default__export__ = clsx;
  * WARRANTIES OR REPRESENTATIONS OF ANY KIND, either express or implied. See the
  * License for the specific language governing permissions and limitations under
  * the License.
- */ __turbopack_context__.s([
-    "cva",
-    ()=>cva,
-    "cx",
-    ()=>cx
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
 ;
 const falsyToString = (value)=>typeof value === "boolean" ? `${value}` : value === 0 ? "0" : value;
 const cx = __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["clsx"];
@@ -4660,16 +4660,16 @@ const twMerge = /*#__PURE__*/ createTailwindMerge(getDefaultConfig);
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/icons/github.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Github
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Github
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Github = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Github", [
     [
@@ -4702,16 +4702,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$p
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/icons/linkedin.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Linkedin
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Linkedin
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Linkedin = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Linkedin", [
     [
@@ -4756,16 +4756,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$p
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/icons/mail.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Mail
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Mail
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Mail = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Mail", [
     [
@@ -4802,16 +4802,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$p
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/icons/arrow-down.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>ArrowDown
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>ArrowDown
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const ArrowDown = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("ArrowDown", [
     [
@@ -4844,16 +4844,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$p
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/icons/code-xml.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>CodeXml
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>CodeXml
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const CodeXml = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("CodeXml", [
     [
@@ -4893,16 +4893,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$p
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/icons/palette.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Palette
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Palette
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Palette = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Palette", [
     [
@@ -4968,16 +4968,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$p
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/icons/rocket.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Rocket
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Rocket
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Rocket = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Rocket", [
     [
@@ -5024,16 +5024,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$p
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/icons/users.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Users
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Users
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Users = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Users", [
     [
@@ -5082,16 +5082,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$p
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/icons/external-link.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>ExternalLink
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>ExternalLink
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const ExternalLink = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("ExternalLink", [
     [
@@ -5131,16 +5131,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$p
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>MapPin
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>MapPin
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const MapPin = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("MapPin", [
     [
@@ -5175,16 +5175,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$p
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/icons/phone.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Phone
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Phone
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Phone = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Phone", [
     [
@@ -5210,16 +5210,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$p
 "[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/icons/send.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Send
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Send
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/next-js-portfolio-project/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Send = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$next$2d$js$2d$portfolio$2d$project$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Send", [
     [

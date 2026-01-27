@@ -8,11 +8,11 @@ const skills = [
     icon: Code2,
     title: 'Desenvolvimento',
     description:
-      'Experiência sólida em JavaScript/TypeScript, React, Next.js e Node.js. Criando aplicações web modernas e escaláveis.',
+      'Experiência sólida em JavaScript/TypeScript, React, python, Next.js e Node.js. Criando aplicações web modernas e escaláveis.',
   },
   {
     icon: Palette,
-    title: 'Design & UX',
+    title: 'Analise e Dashboards',
     description:
       'Foco em criar interfaces intuitivas e acessíveis, seguindo as melhores práticas de design e usabilidade.',
   },
@@ -20,7 +20,7 @@ const skills = [
     icon: Rocket,
     title: 'Performance',
     description:
-      'Otimização de aplicações para máxima velocidade e eficiência, garantindo a melhor experiência do usuário.',
+      'Otimização de aplicações para máxima velocidade e eficiência, garantindo a melhor experiência.',
   },
   {
     icon: Users,
@@ -32,15 +32,16 @@ const skills = [
 
 const technologies = [
   'python',
-  'TypeScript',
   'React',
   'Next.js',
   'Tailwind CSS',
   'Git',
   'PostgreSQL',
   'Docker',
-  'java',
   'IA ',
+  'Excel',
+  'Power BI',
+  'Banco de dados'
  
 ]
 
@@ -62,7 +63,7 @@ export function AboutSection() {
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
               Sou um desenvolvedor apaixonado por tecnologia e inovação, com
               foco em criar soluções digitais que transformam ideias em
-              realidade. Minha jornada no desenvolvimento web começou há alguns
+              realidade. Minha jornada no desenvolvimento e analise começou há alguns
               anos, e desde então tenho me dedicado a aprender e evoluir
               constantemente.
             </p>

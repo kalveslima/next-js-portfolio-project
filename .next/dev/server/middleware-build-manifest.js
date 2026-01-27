@@ -1,25 +1,6 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
-    "/_app": [
-      "static/chunks/[root-of-the-server]__8ed4079b._.js",
-      "static/chunks/17390_react_3b8351e2._.js",
-      "static/chunks/17390_react-dom_cjs_react-dom_development_6a389a2f.js",
-      "static/chunks/17390_react-dom_cfd0371d._.js",
-      "static/chunks/_89ac76f6._.js",
-      "static/chunks/[root-of-the-server]__76f82083._.js",
-      "static/chunks/Downloads_next-js-portfolio-project_pages__app_2da965e7._.js",
-      "static/chunks/turbopack-Downloads_next-js-portfolio-project_pages__app_c61573cf._.js"
-    ],
-    "/_error": [
-      "static/chunks/[root-of-the-server]__967511bb._.js",
-      "static/chunks/17390_react_3b8351e2._.js",
-      "static/chunks/17390_react-dom_cjs_react-dom_development_6a389a2f.js",
-      "static/chunks/17390_react-dom_cfd0371d._.js",
-      "static/chunks/_89ac76f6._.js",
-      "static/chunks/[root-of-the-server]__e100ca11._.js",
-      "static/chunks/Downloads_next-js-portfolio-project_pages__error_2da965e7._.js",
-      "static/chunks/turbopack-Downloads_next-js-portfolio-project_pages__error_116fa5ff._.js"
-    ]
+    "/_app": []
   },
   "devFiles": [],
   "polyfillFiles": [
@@ -27,16 +8,16 @@ globalThis.__BUILD_MANIFEST = {
   ],
   "lowPriorityFiles": [],
   "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_996d2ae0._.js",
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_14f309f6._.js",
     "static/chunks/17390_next_dist_compiled_react-dom_c5fd8553._.js",
     "static/chunks/17390_next_dist_compiled_react-server-dom-turbopack_c618f2b6._.js",
     "static/chunks/17390_next_dist_compiled_next-devtools_index_7485b1eb.js",
     "static/chunks/17390_next_dist_compiled_7f8950e9._.js",
-    "static/chunks/17390_next_dist_client_d90d1a48._.js",
-    "static/chunks/17390_next_dist_76cfef29._.js",
+    "static/chunks/17390_next_dist_client_0bb06f01._.js",
+    "static/chunks/17390_next_dist_f4ccc07c._.js",
     "static/chunks/17390_@swc_helpers_cjs_3aeb2628._.js",
     "static/chunks/Downloads_next-js-portfolio-project_a0ff3932._.js",
-    "static/chunks/turbopack-Downloads_next-js-portfolio-project_807764c9._.js"
+    "static/chunks/turbopack-Downloads_next-js-portfolio-project_a6214de7._.js"
   ]
 };
 globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
