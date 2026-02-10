@@ -18,9 +18,9 @@ const skills = [
   },
   {
     icon: Rocket,
-    title: 'Performance',
+    title: 'Inovação',
     description:
-      'Otimização de aplicações para máxima velocidade e eficiência, garantindo a melhor experiência.',
+      'Sempre buscando novas tecnologias e abordagens para criar soluções inovadoras e eficientes.',
   },
   {
     icon: Users,
