@@ -7,13 +7,13 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'kauan alves  |Analista de dados e dev Python',
+  title: 'kauan alves  |Estudante de desenvolvimento ',
   description: 'Portfólio profissional de desenvolvimento web. Especializado em Python, Excel e Banco de dados. Criando experiências digitais modernas e acessíveis.',
   keywords: ['desenvolvedor', 'Kpis', 'Pandas', 'Excel', 'Power BI', ''],
   authors: [{ name: 'kauan alves' }],
   generator: '',
   openGraph: {
-    title: 'KAUAN ALVES | Analista de dados e dev Python',
+    title: 'KAUAN ALVES | Desenvolvedor ',
     description: '',
     type: 'website',
   },

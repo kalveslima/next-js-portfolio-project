@@ -19,13 +19,13 @@ export function HeroSection() {
               Kauan 
             </h1>
             <h2 className="text-2xl sm:text-3xl md:text-4xl text-muted-foreground text-balance">
-              Dev Web & Analista de dados
+              Dev Web & Estudante de desenvolvimento 
             </h2>
           </div>
 
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed text-pretty">
             Construo experiências digitais modernas, acessíveis e performáticas.
-            Especializado em React, Next.js, com foco em criar
+            estudante em React, Next.js, com foco em criar
             soluções que fazem a diferença.
           </p>
 

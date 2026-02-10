@@ -18,7 +18,7 @@ const projects = [
   {
     title: 'Mywork portifolios personalizados',
     description:
-      'portifolios personalizados para profissionais de diversas áreas, com design responsivo e otimização SEO.',
+      'portifolios personalizados para profissionais de diversas áreas, com design responsivo .',
     image: '/mywork.png',
     tags: ['Next.js','Tailwind', 'Vercel'],
     liveUrl: 'https://mywork-portifolios-personalizados.vercel.app',
