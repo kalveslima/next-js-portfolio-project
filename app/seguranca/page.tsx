@@ -1,5 +1,5 @@
 'use client'
-
+import Link from 'next/link'
 import {
   Shield,
   Network,
@@ -8,6 +8,7 @@ import {
   ExternalLink,
   Github,
   FileText,
+
 } from 'lucide-react'
 
 import { Card, CardContent } from '@/components/ui/card'
@@ -44,7 +45,7 @@ const resources = [
     title: 'Tecnologias Sem Fio e Vulnerabilidades',
     description:
       'Trabalho acadêmico sobre tecnologias sem fio, vulnerabilidades conhecidas, métodos de defesa e boas práticas de segurança.',
-    document: '/docs/VULNERABILIDADES EM REDES SEM FIO.pdf',
+    document: '/docs/VUL.doc',
   },
   {
     title: 'Sistema de Gerenciamento de Pacientes',
@@ -87,9 +88,19 @@ export default function SegurancaPage() {
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground">
               Segurança da Informação
             </h1>
-
+            <div className="flex justify-center">
+  <Link
+    href="/"
+    className="inline-flex items-left px-4 py-2 rounded-lg border border-border hover:border-primary hover:text-primary transition-colors"
+  >
+   {'<Kauan />'}
+  </Link>
+</div>
             <div className="w-20 h-1 bg-primary mx-auto" />
           </div>
+
+
+          
 
           {/* Introdução */}
           <div className="max-w-3xl mx-auto space-y-6 text-center">
