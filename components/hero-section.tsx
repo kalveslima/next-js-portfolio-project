@@ -1,9 +1,29 @@
 'use client'
 
+import { useEffect, useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react'
 
 export function HeroSection() {
+  const [videoSrc, setVideoSrc] = useState<string | null>(null)
+
+  useEffect(() => {
+    const videos = [
+      '/videos/video1.mp4',
+      '/videos/video2.mp4',
+      '/videos/video3.mp4',
+    ]
+
+    const randomVideo =
+      videos[Math.floor(Math.random() * videos.length)]
+
+    setVideoSrc(randomVideo)
+  }, [])
+
+  if (!videoSrc) {
+    return null
+  }
+
   return (
     <section
       id="inicio"
@@ -15,9 +35,12 @@ export function HeroSection() {
         muted
         loop
         playsInline
+        preload="auto"
         className="absolute inset-0 w-full h-full object-cover"
+        onError={(e) => console.error('Erro ao carregar vídeo', e)}
       >
-        <source src="/videos/background.mp4" type="video/mp4" />
+        <source src={videoSrc} type="video/mp4" />
+        Seu navegador não suporta vídeos.
       </video>
 
       {/* Overlay escuro */}
