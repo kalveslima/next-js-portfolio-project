@@ -99,7 +99,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/kauan",
+    "outputFileTracingRoot": "/Users/kauan/Desktop/next-js-portifolio-project",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -146,7 +146,6 @@
       "appNavFailHandling": false,
       "prerenderEarlyExit": true,
       "serverMinification": true,
-      "serverSourceMaps": false,
       "linkNoTouchStart": false,
       "caseSensitiveRoutes": false,
       "dynamicOnHover": false,
@@ -196,6 +195,7 @@
       "serverComponentsHmrCache": true,
       "staticGenerationMaxConcurrency": 8,
       "staticGenerationMinPagesPerWorker": 25,
+      "transitionIndicator": false,
       "inlineCss": false,
       "useCache": false,
       "globalNotFound": false,
@@ -205,6 +205,9 @@
       "proxyClientMaxBodySize": 10485760,
       "hideLogsAfterAbort": false,
       "mcpServer": true,
+      "turbopackFileSystemCacheForDev": true,
+      "turbopackFileSystemCacheForBuild": false,
+      "turbopackInferModuleSideEffects": false,
       "optimizePackageImports": [
         "lucide-react",
         "date-fns",
@@ -289,12 +292,12 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
     "turbopack": {
-      "root": "/Users/kauan"
+      "root": "/Users/kauan/Desktop/next-js-portifolio-project"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "/Users/kauan/Downloads/next-js-portfolio-project",
-  "relativeAppDir": "Downloads/next-js-portfolio-project",
+  "appDir": "/Users/kauan/Desktop/next-js-portifolio-project",
+  "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",
     ".next/server/pages-manifest.json",
