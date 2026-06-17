@@ -3,6 +3,9 @@
 import { Code2, Palette, Rocket, Users } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
 
+
+
+
 const skills = [
   {
     icon: Code2,
