@@ -33,7 +33,15 @@ const projects = [
     liveUrl: 'https://odonto-lab.vercel.app',
     githubUrl: 'https://github.com/kalveslima/odonto-lab',
   },
-  
+  {
+    title: 'jogo da forca',
+    description:
+      'Jogo da forca interativo, com palavras aleatórias e interface amigável para todas as idades.',
+    image: '/forca.jpeg',
+    tags: ['Next.js', 'Tailwind', 'Vercel','prisma','SQlite'],
+    liveUrl: 'https://frontend-two-lac-48.vercel.app/',
+    githubUrl: 'https://github.com/kalveslima/jogo-forca',
+  },
 ]
 
 export function ProjectsSection() {
