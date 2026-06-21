@@ -59,14 +59,14 @@ export function HeroSection() {
             </h1>
 
             <h2 className="text-2xl sm:text-3xl md:text-4xl text-white/80 text-balance">
-              Dev Web & Estudante de Desenvolvimento
+              Estudante de Desenvolvimento e Segurança da Informação
             </h2>
           </div>
 
           <p className="text-base sm:text-lg md:text-xl text-white/80 max-w-2xl mx-auto leading-relaxed text-pretty">
-            Construo experiências digitais modernas, acessíveis e performáticas.
-            Estudante de React, Next.js, com foco em criar soluções que fazem a
-            diferença.
+            Sou um estudante apaixonado por tecnologia, focado em desenvolvimento e
+            segurança da informação. Estou sempre em busca de novos desafios e
+            oportunidades para aprender e crescer na área de tecnologia.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4">

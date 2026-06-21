@@ -36,12 +36,7 @@ export function ContactSection() {
       value: 'k.alves1427@gmail.com',
       href: 'mailto:k.alves1427@gmail.com',
     },
-    {
-      icon: Phone,
-      label: 'Telefone',
-      value: '+55 (11) 954610490',
-      href: 'tel:+5511954610490',
-    },
+    
     {
       icon: MapPin,
       label: 'Localização',

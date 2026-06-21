@@ -64,17 +64,20 @@ export function AboutSection() {
           {/* Bio */}
           <div className="max-w-3xl mx-auto space-y-6 text-center">
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-              Sou estudante desenvolvedor apaixonado por tecnologia e inovação, com
-              foco em criar soluções digitais que transformam ideias em
-              realidade. Minha jornada no desenvolvimento e analise começou há alguns
-              anos, e desde então tenho me dedicado a aprender e evoluir
-              constantemente.
+            Sou estudante de Segurança da Informação com interesse em análise, gestão de riscos, governança e tecnologia aplicada aos negócios. 
+            Minha trajetória começou na área de desenvolvimento, mas ao longo dos estudos descobri que meu maior interesse estava em 
+            compreender como dados, processos e controles podem apoiar decisões mais seguras e eficientes. Desde então, venho construindo uma formação voltada
+             para tecnologia, segurança e análise, buscando desenvolver uma visão cada vez mais estratégica sobre como a informação gera valor para organizações e pessoas.
+
             </p>
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-              Meu objetivo é desenvolver aplicações que não apenas funcionem
-              bem, mas que proporcionem experiências memoráveis aos usuários.
-              Acredito que a tecnologia deve ser acessível, intuitiva e
-              inclusiva para todos.
+            Minha trajetória na tecnologia começou pela curiosidade de entender como sistemas são construídos. 
+            Com o tempo, percebi que meu interesse ia além do desenvolvimento e estava cada vez mais ligado 
+            à análise, à compreensão de riscos e ao papel da informação na tomada de decisões.
+             Atualmente, estudo Segurança da Informação e busco desenvolver uma visão que 
+             conecte tecnologia, governança e negócios, acreditando que as melhores soluções surgem
+              quando conhecimento técnico e pensamento estratégico caminham juntos.
+
             </p>
           </div>
 

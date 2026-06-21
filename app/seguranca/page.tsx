@@ -1,5 +1,6 @@
 'use client'
 import Link from 'next/link'
+import { MatrixBackground } from '@/components/matrix-background'
 import {
   Shield,
   Network,
@@ -80,8 +81,18 @@ const technologies = [
 
 export default function SegurancaPage() {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8">
-      <div className="container mx-auto">
+
+      <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        {/* Fundo Matrix */}
+        <MatrixBackground />
+    
+    ```
+    {/* Camada escura para melhorar leitura */}
+    <div className="absolute inset-0 bg-background/70 -z-10" />
+    
+    <div className="container mx-auto relative z-10">
+    ```
+    
         <div className="max-w-6xl mx-auto space-y-16">
           {/* Header */}
           <div className="space-y-4 text-center">
@@ -125,7 +136,15 @@ export default function SegurancaPage() {
               return (
                 <Card
                   key={skill.title}
-                  className="border-border hover:border-primary transition-colors group"
+                  className="
+                  bg-background/80
+                  backdrop-blur-sm
+                  border-green-500/20
+                  hover:border-green-500
+                  hover:shadow-[0_0_20px_rgba(0,255,65,0.15)]
+                  transition-all
+                  group
+                  "
                 >
                   <CardContent className="p-6 space-y-4">
                     <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -155,7 +174,14 @@ export default function SegurancaPage() {
               {resources.map((resource) => (
                 <Card
                   key={resource.title}
-                  className="border-border hover:border-primary transition-colors"
+                  className="
+                            bg-background/80
+                            backdrop-blur-sm
+                            border-green-500/20
+                            hover:border-green-500
+                            hover:shadow-[0_0_20px_rgba(0,255,65,0.15)]
+                            transition-all
+                            "
                 >
                   <CardContent className="p-6 space-y-4">
                     <h3 className="text-xl font-semibold">

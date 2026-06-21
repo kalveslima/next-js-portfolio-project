@@ -229,7 +229,7 @@ function SegurancaPage() {
                                 children: "Segurança da Informação"
                             }, void 0, false, {
                                 fileName: "[project]/app/seguranca/page.tsx",
-                                lineNumber: 88,
+                                lineNumber: 92,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -240,25 +240,25 @@ function SegurancaPage() {
                                     children: '<Kauan />'
                                 }, void 0, false, {
                                     fileName: "[project]/app/seguranca/page.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 96,
                                     columnNumber: 3
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/seguranca/page.tsx",
-                                lineNumber: 91,
+                                lineNumber: 95,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "w-20 h-1 bg-primary mx-auto"
                             }, void 0, false, {
                                 fileName: "[project]/app/seguranca/page.tsx",
-                                lineNumber: 99,
+                                lineNumber: 103,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/seguranca/page.tsx",
-                        lineNumber: 87,
+                        lineNumber: 91,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -269,7 +269,7 @@ function SegurancaPage() {
                                 children: "Esta seção reúne meus estudos e projetos relacionados à Segurança da Informação, Infraestrutura e Governança de TI."
                             }, void 0, false, {
                                 fileName: "[project]/app/seguranca/page.tsx",
-                                lineNumber: 107,
+                                lineNumber: 111,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -277,13 +277,13 @@ function SegurancaPage() {
                                 children: "Atualmente curso Segurança da Informação pela FATEC e busco desenvolver conhecimentos em redes, administração de sistemas, gestão de riscos, governança e boas práticas de proteção das informações em ambientes corporativos."
                             }, void 0, false, {
                                 fileName: "[project]/app/seguranca/page.tsx",
-                                lineNumber: 112,
+                                lineNumber: 116,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/seguranca/page.tsx",
-                        lineNumber: 106,
+                        lineNumber: 110,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -302,12 +302,12 @@ function SegurancaPage() {
                                                 size: 24
                                             }, void 0, false, {
                                                 fileName: "[project]/app/seguranca/page.tsx",
-                                                lineNumber: 132,
+                                                lineNumber: 136,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/seguranca/page.tsx",
-                                            lineNumber: 131,
+                                            lineNumber: 135,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -315,7 +315,7 @@ function SegurancaPage() {
                                             children: skill.title
                                         }, void 0, false, {
                                             fileName: "[project]/app/seguranca/page.tsx",
-                                            lineNumber: 135,
+                                            lineNumber: 139,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -323,24 +323,24 @@ function SegurancaPage() {
                                             children: skill.description
                                         }, void 0, false, {
                                             fileName: "[project]/app/seguranca/page.tsx",
-                                            lineNumber: 139,
+                                            lineNumber: 143,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/seguranca/page.tsx",
-                                    lineNumber: 130,
+                                    lineNumber: 134,
                                     columnNumber: 19
                                 }, this)
                             }, skill.title, false, {
                                 fileName: "[project]/app/seguranca/page.tsx",
-                                lineNumber: 126,
+                                lineNumber: 130,
                                 columnNumber: 17
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/app/seguranca/page.tsx",
-                        lineNumber: 121,
+                        lineNumber: 125,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -351,7 +351,7 @@ function SegurancaPage() {
                                 children: "Projetos e Documentação Técnica"
                             }, void 0, false, {
                                 fileName: "[project]/app/seguranca/page.tsx",
-                                lineNumber: 150,
+                                lineNumber: 154,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -366,7 +366,7 @@ function SegurancaPage() {
                                                     children: resource.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/seguranca/page.tsx",
-                                                    lineNumber: 161,
+                                                    lineNumber: 165,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -374,7 +374,7 @@ function SegurancaPage() {
                                                     children: resource.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/seguranca/page.tsx",
-                                                    lineNumber: 165,
+                                                    lineNumber: 169,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -390,14 +390,14 @@ function SegurancaPage() {
                                                                     size: 18
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/seguranca/page.tsx",
-                                                                    lineNumber: 177,
+                                                                    lineNumber: 181,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 "Documento"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/seguranca/page.tsx",
-                                                            lineNumber: 171,
+                                                            lineNumber: 175,
                                                             columnNumber: 25
                                                         }, this),
                                                         resource.projectUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -410,14 +410,14 @@ function SegurancaPage() {
                                                                     size: 18
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/seguranca/page.tsx",
-                                                                    lineNumber: 189,
+                                                                    lineNumber: 193,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 "Projeto"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/seguranca/page.tsx",
-                                                            lineNumber: 183,
+                                                            lineNumber: 187,
                                                             columnNumber: 25
                                                         }, this),
                                                         resource.githubUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -430,42 +430,42 @@ function SegurancaPage() {
                                                                     size: 18
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/seguranca/page.tsx",
-                                                                    lineNumber: 201,
+                                                                    lineNumber: 205,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 "GitHub"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/seguranca/page.tsx",
-                                                            lineNumber: 195,
+                                                            lineNumber: 199,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/seguranca/page.tsx",
-                                                    lineNumber: 169,
+                                                    lineNumber: 173,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/seguranca/page.tsx",
-                                            lineNumber: 160,
+                                            lineNumber: 164,
                                             columnNumber: 19
                                         }, this)
                                     }, resource.title, false, {
                                         fileName: "[project]/app/seguranca/page.tsx",
-                                        lineNumber: 156,
+                                        lineNumber: 160,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/seguranca/page.tsx",
-                                lineNumber: 154,
+                                lineNumber: 158,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/seguranca/page.tsx",
-                        lineNumber: 149,
+                        lineNumber: 153,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -476,7 +476,7 @@ function SegurancaPage() {
                                 children: "Tecnologias e Conhecimentos"
                             }, void 0, false, {
                                 fileName: "[project]/app/seguranca/page.tsx",
-                                lineNumber: 214,
+                                lineNumber: 218,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -486,34 +486,34 @@ function SegurancaPage() {
                                         children: tech
                                     }, tech, false, {
                                         fileName: "[project]/app/seguranca/page.tsx",
-                                        lineNumber: 220,
+                                        lineNumber: 224,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/seguranca/page.tsx",
-                                lineNumber: 218,
+                                lineNumber: 222,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/seguranca/page.tsx",
-                        lineNumber: 213,
+                        lineNumber: 217,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/seguranca/page.tsx",
-                lineNumber: 85,
+                lineNumber: 89,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/seguranca/page.tsx",
-            lineNumber: 84,
+            lineNumber: 88,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/seguranca/page.tsx",
-        lineNumber: 83,
+        lineNumber: 87,
         columnNumber: 5
     }, this);
 }
