@@ -1,67 +1,48 @@
+
 'use client'
+
 import Link from 'next/link'
-import { MatrixBackground } from '@/components/matrix-background'
 import {
-  Shield,
-  Network,
-  Lock,
-  Server,
   ExternalLink,
   Github,
   FileText,
-
 } from 'lucide-react'
 
 import { Card, CardContent } from '@/components/ui/card'
-
-const securitySkills = [
-  {
-    icon: Network,
-    title: 'Infraestrutura de TI',
-    description:
-      'Conhecimentos em redes, sistemas operacionais, serviços e suporte à infraestrutura tecnológica.',
-  },
-  {
-    icon: Shield,
-    title: 'Governança e Segurança',
-    description:
-      'Estudo de boas práticas, gestão de riscos, políticas de segurança e proteção dos ativos de informação.',
-  },
-  {
-    icon: Lock,
-    title: 'Gestão de Acessos',
-    description:
-      'Aplicação dos princípios de autenticação, autorização e controle de acesso em ambientes corporativos.',
-  },
-  {
-    icon: Server,
-    title: 'Administração de Sistemas',
-    description:
-      'Configuração, gerenciamento e monitoramento de ambientes Linux, além da automação de tarefas.',
-  },
-]
 
 const resources = [
   {
     title: 'Tecnologias Sem Fio e Vulnerabilidades',
     description:
-      'Trabalho acadêmico sobre tecnologias sem fio, vulnerabilidades conhecidas, métodos de defesa e boas práticas de segurança.',
+      'Estudo acadêmico sobre redes sem fio, vulnerabilidades conhecidas, métodos de mitigação e boas práticas de proteção.',
     document: '/docs/VUL.doc',
   },
   {
     title: 'Sistema de Gerenciamento de Pacientes',
     description:
-      'Aplicação desenvolvida com Next.js, Prisma e PostgreSQL para gerenciamento de pacientes.',
+      'Aplicação desenvolvida utilizando Next.js, Prisma e PostgreSQL para gerenciamento de pacientes.',
     projectUrl: 'https://odonto-lab.vercel.app/',
     githubUrl: 'https://github.com/kalveslima/odonto-lab',
   },
   {
     title: 'Estufa Inteligente ESP32',
     description:
-      'Projeto IoT para monitoramento e automação utilizando sensores, atuadores e ESP32.',
+      'Projeto IoT voltado para monitoramento e automação utilizando sensores e microcontroladores.',
     githubUrl: 'https://wokwi.com/projects/466808635402932225',
   },
+]
 
+const interests = [
+  'Governança de TI',
+  'Segurança da Informação',
+  'Gestão de Riscos',
+  'Infraestrutura',
+  'Redes',
+  'LGPD',
+  'Compliance',
+  'Linux',
+  'Gestão de Acessos',
+  'Continuidade de Negócios',
 ]
 
 const technologies = [
@@ -72,101 +53,130 @@ const technologies = [
   'Git',
   'Docker',
   'PostgreSQL',
-  'Segurança da Informação',
-  'Governança de TI',
   'LGPD',
-  'ESP32',
+  'Governança de TI',
   'Next.js',
+  'ESP32',
 ]
 
 export default function SegurancaPage() {
   return (
+    <section className="relative py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
+      {/* Fundo */}
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-transparent" />
 
-      <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-        {/* Fundo Matrix */}
-        <MatrixBackground />
-    
-    ```
-    {/* Camada escura para melhorar leitura */}
-    <div className="absolute inset-0 bg-background/70 -z-10" />
-    
-    <div className="container mx-auto relative z-10">
-    ```
-    
-        <div className="max-w-6xl mx-auto space-y-16">
-          {/* Header */}
-          <div className="space-y-4 text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground">
-              Segurança da Informação
-            </h1>
-            <div className="flex justify-center">
-  <Link
-    href="/"
-    className="inline-flex items-left px-4 py-2 rounded-lg border border-border hover:border-primary hover:text-primary transition-colors"
-  >
-   {'<Kauan />'}
-  </Link>
-</div>
-            <div className="w-20 h-1 bg-primary mx-auto" />
+      <div className="container mx-auto relative z-10">
+        <div className="max-w-6xl mx-auto">
+
+          {/* HERO */}
+          <div className="text-center space-y-8">
+            <Link
+              href="/"
+              className="inline-flex px-4 py-2 rounded-lg border border-primary/20 hover:border-primary transition-colors"
+            >
+              {'<Kauan />'}
+            </Link>
+
+            <div>
+              <span className="text-primary uppercase tracking-[0.3em] text-sm">
+                Segurança da Informação
+              </span>
+
+              <h1 className="mt-4 text-4xl md:text-6xl font-bold">
+                Protegendo informações,
+                <span className="text-primary">
+                  {' '}reduzindo riscos
+                </span>
+              </h1>
+            </div>
+
+            <div className="w-24 h-1 bg-primary mx-auto" />
           </div>
 
-
-          
-
-          {/* Introdução */}
-          <div className="max-w-3xl mx-auto space-y-6 text-center">
-            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-              Esta seção reúne meus estudos e projetos relacionados à
-              Segurança da Informação, Infraestrutura e Governança de TI.
+          {/* INTRODUÇÃO */}
+          <div className="max-w-4xl mx-auto mt-20 space-y-8 text-center">
+            <p className="text-xl text-muted-foreground leading-relaxed">
+              Minha formação em Segurança da Informação é direcionada para
+              compreender como tecnologia, processos e governança podem
+              contribuir para ambientes mais seguros, eficientes e alinhados
+              aos objetivos das organizações.
             </p>
 
-            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-              Atualmente curso Segurança da Informação pela FATEC e busco
-              desenvolver conhecimentos em redes, administração de sistemas,
-              gestão de riscos, governança e boas práticas de proteção das
-              informações em ambientes corporativos.
+            <p className="text-xl text-muted-foreground leading-relaxed">
+              Tenho interesse especial por infraestrutura, gestão de riscos,
+              governança de TI e controles de segurança, buscando sempre
+              conectar aspectos técnicos às necessidades do negócio.
+            </p>
+
+            <p className="text-xl text-muted-foreground leading-relaxed">
+              Acredito que a segurança deve ser encarada como um elemento
+              estratégico, capaz de apoiar decisões, fortalecer processos e
+              aumentar a confiabilidade das informações.
             </p>
           </div>
 
-          {/* Competências */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {securitySkills.map((skill) => {
-              const Icon = skill.icon
+          {/* ÁREAS DE INTERESSE */}
+          <div className="mt-24">
+            <h2 className="text-2xl font-semibold text-center mb-8">
+              Áreas de Interesse
+            </h2>
 
-              return (
-                <Card
-                  key={skill.title}
+            <div className="flex flex-wrap justify-center gap-3">
+              {interests.map((item) => (
+                <span
+                  key={item}
                   className="
-                  bg-background/80
-                  backdrop-blur-sm
-                  border-green-500/20
-                  hover:border-green-500
-                  hover:shadow-[0_0_20px_rgba(0,255,65,0.15)]
-                  transition-all
-                  group
+                    px-5 py-3
+                    rounded-full
+                    border border-primary/20
+                    bg-background/50
+                    backdrop-blur-sm
+                    hover:border-primary
+                    transition-colors
                   "
                 >
-                  <CardContent className="p-6 space-y-4">
-                    <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                      <Icon className="text-primary" size={24} />
-                    </div>
-
-                    <h3 className="text-xl font-semibold">
-                      {skill.title}
-                    </h3>
-
-                    <p className="text-muted-foreground">
-                      {skill.description}
-                    </p>
-                  </CardContent>
-                </Card>
-              )
-            })}
+                  {item}
+                </span>
+              ))}
+            </div>
           </div>
 
-          {/* Projetos e Documentação */}
-          <div className="space-y-6">
-            <h2 className="text-2xl font-semibold text-center">
+          {/* FORMAÇÃO */}
+          <div className="mt-24">
+            <h2 className="text-2xl font-semibold text-center mb-10">
+              Formação e Estudos
+            </h2>
+
+            <div className="max-w-3xl mx-auto space-y-6">
+              <div className="rounded-2xl border border-primary/20 p-6 bg-background/60 backdrop-blur-sm">
+                <h3 className="font-semibold text-lg">
+                  Segurança da Informação — FATEC
+                </h3>
+
+                <p className="text-muted-foreground mt-2">
+                  Formação voltada para infraestrutura, redes,
+                  governança, gestão de riscos e proteção de ativos
+                  de informação.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-primary/20 p-6 bg-background/60 backdrop-blur-sm">
+                <h3 className="font-semibold text-lg">
+                  Estudos e Projetos Práticos
+                </h3>
+
+                <p className="text-muted-foreground mt-2">
+                  Desenvolvimento de projetos acadêmicos e estudos
+                  independentes relacionados à segurança, automação,
+                  infraestrutura e análise tecnológica.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* PROJETOS */}
+          <div className="mt-24">
+            <h2 className="text-2xl font-semibold text-center mb-10">
               Projetos e Documentação Técnica
             </h2>
 
@@ -175,13 +185,12 @@ export default function SegurancaPage() {
                 <Card
                   key={resource.title}
                   className="
-                            bg-background/80
-                            backdrop-blur-sm
-                            border-green-500/20
-                            hover:border-green-500
-                            hover:shadow-[0_0_20px_rgba(0,255,65,0.15)]
-                            transition-all
-                            "
+                    bg-background/60
+                    backdrop-blur-sm
+                    border-primary/20
+                    hover:border-primary
+                    transition-all
+                  "
                 >
                   <CardContent className="p-6 space-y-4">
                     <h3 className="text-xl font-semibold">
@@ -222,7 +231,7 @@ export default function SegurancaPage() {
                           href={resource.githubUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border hover:border-primary transition-colors"
+                          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-primary/20 hover:border-primary transition-colors"
                         >
                           <Github size={18} />
                           GitHub
@@ -235,9 +244,9 @@ export default function SegurancaPage() {
             </div>
           </div>
 
-          {/* Tecnologias */}
-          <div className="space-y-6">
-            <h2 className="text-2xl font-semibold text-center">
+          {/* TECNOLOGIAS */}
+          <div className="mt-24">
+            <h2 className="text-2xl font-semibold text-center mb-8">
               Tecnologias e Conhecimentos
             </h2>
 
@@ -245,15 +254,26 @@ export default function SegurancaPage() {
               {technologies.map((tech) => (
                 <span
                   key={tech}
-                  className="px-4 py-2 bg-secondary text-secondary-foreground rounded-full text-sm font-medium hover:bg-primary hover:text-primary-foreground transition-colors"
+                  className="
+                    px-4 py-2
+                    rounded-full
+                    border border-primary/20
+                    bg-background/50
+                    backdrop-blur-sm
+                    text-sm
+                    hover:border-primary
+                    transition-colors
+                  "
                 >
                   {tech}
                 </span>
               ))}
             </div>
           </div>
+
         </div>
       </div>
     </section>
   )
 }
+

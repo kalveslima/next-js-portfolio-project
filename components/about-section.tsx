@@ -1,123 +1,121 @@
 'use client'
 
-import { Code2, Palette, Rocket, Users } from 'lucide-react'
-import { Card, CardContent } from '@/components/ui/card'
-
-
-
-
-const skills = [
-  {
-    icon: Code2,
-    title: 'Desenvolvimento',
-    description:
-      'Experiência sólida em TypeScript, React, python, Next.js e Node.js. Criando aplicações web modernas e escaláveis.',
-  },
-  {
-    icon: Palette,
-    title: 'Design',
-    description:
-      'Habilidade em design de interfaces e experiência do usuário, garantindo produtos visuais atraentes e intuitivos.',
-  },
-  {
-    icon: Rocket,
-    title: 'Inovação',
-    description:
-      'Sempre buscando novas tecnologias e abordagens para criar soluções inovadoras e eficientes.',
-  },
-  {
-    icon: Users,
-    title: 'Colaboração',
-    description:
-      'Trabalho em equipe, comunicação clara e metodologias ágeis para entregar projetos de qualidade.',
-  },
-]
-
-const technologies = [
-  'python',
-  'React',
-  'Next.js',
-  'Tailwind CSS',
-  'Git',
-  'PostgreSQL',
- 
-  'IA ',
-  'Excel',
+const interests = [
+  'Segurança da Informação',
+  'Governança de TI',
+  'Análise de Dados',
+  'Gestão de Riscos',
+  'Infraestrutura',
+  'Business Intelligence',
+  'Python',
   'Power BI',
-  'Banco de dados'
- 
 ]
 
 export function AboutSection() {
   return (
-    <section id="sobre" className="py-20 px-4 sm:px-6 lg:px-8">
-      <div className="container mx-auto">
-        <div className="max-w-6xl mx-auto space-y-16">
+    <section
+      id="sobre"
+      className="relative py-32 px-4 sm:px-6 lg:px-8 overflow-hidden"
+    >
+      {/* Glow Background */}
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-transparent" />
+
+      <div className="container mx-auto relative z-10">
+        <div className="max-w-5xl mx-auto">
           {/* Header */}
-          <div className="space-y-4 text-center">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground">
+          <div className="text-center mb-70">
+            <span className="text-primary uppercase tracking-[0.3em] text-sm">
               Sobre Mim
-            </h2>
-            <div className="w-20 h-1 bg-primary mx-auto" />
+            </span>
+
+            <h2 className="mt-4 text-4xl md:text-6xl font-bold">
+  Uma trajetória guiada por
+  <span className="text-primary"> tecnologia e conhecimento</span>
+</h2>
           </div>
 
-          {/* Bio */}
-          <div className="max-w-3xl mx-auto space-y-6 text-center">
-            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-            Sou estudante de Segurança da Informação com interesse em análise, gestão de riscos, governança e tecnologia aplicada aos negócios. 
-            Minha trajetória começou na área de desenvolvimento, mas ao longo dos estudos descobri que meu maior interesse estava em 
-            compreender como dados, processos e controles podem apoiar decisões mais seguras e eficientes. Desde então, venho construindo uma formação voltada
-             para tecnologia, segurança e análise, buscando desenvolver uma visão cada vez mais estratégica sobre como a informação gera valor para organizações e pessoas.
-
+          {/* Texto Principal */}
+          <div className="max-w-4xl mx-auto space-y-8 text-center">
+            <p className="text-xl text-muted-foreground leading-relaxed">
+              Sou estudante de Segurança da Informação com interesse em
+              governança, análise de dados e gestão de riscos.
+              Minha trajetória começou no desenvolvimento de software,
+              experiência que me proporcionou uma visão prática sobre sistemas,
+              processos e tecnologia.
             </p>
-            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-            Minha trajetória na tecnologia começou pela curiosidade de entender como sistemas são construídos. 
-            Com o tempo, percebi que meu interesse ia além do desenvolvimento e estava cada vez mais ligado 
-            à análise, à compreensão de riscos e ao papel da informação na tomada de decisões.
-             Atualmente, estudo Segurança da Informação e busco desenvolver uma visão que 
-             conecte tecnologia, governança e negócios, acreditando que as melhores soluções surgem
-              quando conhecimento técnico e pensamento estratégico caminham juntos.
 
+            <p className="text-xl text-muted-foreground leading-relaxed">
+              Ao longo da minha formação, passei a direcionar meus estudos para
+              compreender como dados, controles e boas práticas podem apoiar
+              decisões estratégicas e aumentar a segurança dos ambientes
+              corporativos.
+            </p>
+
+            <p className="text-xl text-muted-foreground leading-relaxed">
+              Atualmente busco construir uma carreira que conecte tecnologia,
+              negócios e governança, contribuindo para organizações que
+              valorizam informação, eficiência e inovação.
             </p>
           </div>
 
-          {/* Skills Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {skills.map((skill) => {
-              const Icon = skill.icon
-              return (
-                <Card
-                  key={skill.title}
-                  className="border-border hover:border-primary transition-colors group"
-                >
-                  <CardContent className="p-6 space-y-4">
-                    <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                      <Icon className="text-primary" size={24} />
-                    </div>
-                    <h3 className="text-xl font-semibold text-foreground">
-                      {skill.title}
-                    </h3>
-                    <p className="text-muted-foreground leading-relaxed">
-                      {skill.description}
-                    </p>
-                  </CardContent>
-                </Card>
-              )
-            })}
+          {/* Indicadores */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-20">
+            <div className="rounded-2xl border border-primary/20 bg-background/50 backdrop-blur-sm p-8 text-center">
+              <h3 className="text-4xl font-bold text-primary">2</h3>
+              <p className="text-muted-foreground mt-2">
+                Graduações
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-primary/20 bg-background/50 backdrop-blur-sm p-8 text-center">
+              <h3 className="text-4xl font-bold text-primary">3</h3>
+              <p className="text-muted-foreground mt-2">
+                Áreas de atuação
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-primary/20 bg-background/50 backdrop-blur-sm p-8 text-center">
+              <h3 className="text-4xl font-bold text-primary">10+</h3>
+              <p className="text-muted-foreground mt-2">
+                Tecnologias estudadas
+              </p>
+            </div>
           </div>
 
-          {/* Technologies */}
-          <div className="space-y-6">
-            <h3 className="text-2xl font-semibold text-foreground text-center">
-              Tecnologias que Utilizo
+          {/* Formação */}
+          <div className="mt-24 text-center">
+            <h3 className="text-2xl font-semibold mb-8">
+              Formação Acadêmica
             </h3>
+
+            <div className="space-y-4">
+              <div className="rounded-xl border border-border p-6">
+                <h4 className="font-semibold">
+                  Segurança da Informação — FATEC
+                </h4>
+              </div>
+
+              <div className="rounded-xl border border-border p-6">
+                <h4 className="font-semibold">
+                  Ciência da Computação — UNICID
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          {/* Áreas de Interesse */}
+          <div className="mt-24">
+            <h3 className="text-2xl font-semibold text-center mb-8">
+              Áreas de Interesse
+            </h3>
+
             <div className="flex flex-wrap justify-center gap-3">
-              {technologies.map((tech) => (
+              {interests.map((item) => (
                 <span
-                  key={tech}
-                  className="px-4 py-2 bg-secondary text-secondary-foreground rounded-full text-sm font-medium hover:bg-primary hover:text-primary-foreground transition-colors cursor-default"
+                  key={item}
+                  className="px-5 py-3 rounded-full border border-primary/20 bg-background/50 backdrop-blur-sm hover:border-primary transition-colors"
                 >
-                  {tech}
+                  {item}
                 </span>
               ))}
             </div>
