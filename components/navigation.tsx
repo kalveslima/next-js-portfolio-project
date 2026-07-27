@@ -22,6 +22,7 @@ export function Navigation() {
     { href: '#projetos', label: 'Projetos' },
     { href: '#contato', label: 'Contato' },
     { href: '/seguranca', label: 'segurança' },
+    { href: '/dados', label: 'dados' },
   ]
 
   return (

@@ -116,10 +116,7 @@ const WEB_VITALS = [
 function execOnce(fn) {
     let used = false;
     let result;
-    return function() {
-        for(var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++){
-            args[_key] = arguments[_key];
-        }
+    return (...args)=>{
         if (!used) {
             used = true;
             result = fn(...args);
@@ -133,7 +130,7 @@ const ABSOLUTE_URL_REGEX = /^[a-zA-Z][a-zA-Z\d+\-.]*?:/;
 const isAbsoluteUrl = (url)=>ABSOLUTE_URL_REGEX.test(url);
 function getLocationOrigin() {
     const { protocol, hostname, port } = window.location;
-    return protocol + "//" + hostname + (port ? ':' + port : '');
+    return `${protocol}//${hostname}${port ? ':' + port : ''}`;
 }
 function getURL() {
     const { href } = window.location;
@@ -151,14 +148,17 @@ function normalizeRepeatedSlashes(url) {
     const urlNoQuery = urlParts[0];
     return urlNoQuery // first we replace any non-encoded backslashes with forward
     // then normalize repeated forward slashes
-    .replace(/\\/g, '/').replace(/\/\/+/g, '/') + (urlParts[1] ? "?" + urlParts.slice(1).join('?') : '');
+    .replace(/\\/g, '/').replace(/\/\/+/g, '/') + (urlParts[1] ? `?${urlParts.slice(1).join('?')}` : '');
 }
 async function loadGetInitialProps(App, ctx) {
     if ("TURBOPACK compile-time truthy", 1) {
-        var _App_prototype;
-        if ((_App_prototype = App.prototype) == null ? void 0 : _App_prototype.getInitialProps) {
-            const message = '"' + getDisplayName(App) + '.getInitialProps()" is defined as an instance method - visit https://nextjs.org/docs/messages/get-initial-props-as-an-instance-method for more information.';
-            throw new Error(message);
+        if (App.prototype?.getInitialProps) {
+            const message = `"${getDisplayName(App)}.getInitialProps()" is defined as an instance method - visit https://nextjs.org/docs/messages/get-initial-props-as-an-instance-method for more information.`;
+            throw Object.defineProperty(new Error(message), "__NEXT_ERROR_CODE", {
+                value: "E394",
+                enumerable: false,
+                configurable: true
+            });
         }
     }
     // when called from _app `ctx` is nested in `ctx`
@@ -177,12 +177,16 @@ async function loadGetInitialProps(App, ctx) {
         return props;
     }
     if (!props) {
-        const message = '"' + getDisplayName(App) + '.getInitialProps()" should resolve to an object. But found "' + props + '" instead.';
-        throw new Error(message);
+        const message = `"${getDisplayName(App)}.getInitialProps()" should resolve to an object. But found "${props}" instead.`;
+        throw Object.defineProperty(new Error(message), "__NEXT_ERROR_CODE", {
+            value: "E394",
+            enumerable: false,
+            configurable: true
+        });
     }
     if ("TURBOPACK compile-time truthy", 1) {
         if (Object.keys(props).length === 0 && !ctx.ctx) {
-            console.warn("" + getDisplayName(App) + " returned an empty object from `getInitialProps`. This de-optimizes and prevents automatic static optimization. https://nextjs.org/docs/messages/empty-object-getInitialProps");
+            console.warn(`${getDisplayName(App)} returned an empty object from \`getInitialProps\`. This de-optimizes and prevents automatic static optimization. https://nextjs.org/docs/messages/empty-object-getInitialProps`);
         }
     }
     return props;
@@ -202,20 +206,20 @@ class PageNotFoundError extends Error {
         super();
         this.code = 'ENOENT';
         this.name = 'PageNotFoundError';
-        this.message = "Cannot find module for page: " + page;
+        this.message = `Cannot find module for page: ${page}`;
     }
 }
 class MissingStaticPage extends Error {
     constructor(page, message){
         super();
-        this.message = "Failed to load static file for page: " + page + " " + message;
+        this.message = `Failed to load static file for page: ${page} ${message}`;
     }
 }
 class MiddlewareNotFoundError extends Error {
     constructor(){
         super();
         this.code = 'ENOENT';
-        this.message = "Cannot find the middleware module";
+        this.message = `Cannot find the middleware module`;
     }
 }
 function stringifyError(error) {
@@ -244,14 +248,19 @@ const _utils = __turbopack_context__.r("[project]/node_modules/next/dist/shared/
 /**
  * `App` component is used for initialize of pages. It allows for overwriting and full control of the `page` initialization.
  * This allows for keeping state between navigation, custom error handling, injecting additional data.
- */ async function appGetInitialProps(param) {
-    let { Component, ctx } = param;
+ */ async function appGetInitialProps({ Component, ctx }) {
     const pageProps = await (0, _utils.loadGetInitialProps)(Component, ctx);
     return {
         pageProps
     };
 }
 class App extends _react.default.Component {
+    static{
+        this.origGetInitialProps = appGetInitialProps;
+    }
+    static{
+        this.getInitialProps = appGetInitialProps;
+    }
     render() {
         const { Component, pageProps } = this.props;
         return /*#__PURE__*/ (0, _jsxruntime.jsx)(Component, {
@@ -259,8 +268,6 @@ class App extends _react.default.Component {
         });
     }
 }
-App.origGetInitialProps = appGetInitialProps;
-App.getInitialProps = appGetInitialProps;
 if ((typeof exports.default === 'function' || typeof exports.default === 'object' && exports.default !== null) && typeof exports.default.__esModule === 'undefined') {
     Object.defineProperty(exports.default, '__esModule', {
         value: true

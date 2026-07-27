@@ -37,11 +37,15 @@ export function AboutSection() {
           {/* Texto Principal */}
           <div className="max-w-4xl mx-auto space-y-8 text-center">
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Sou estudante de Segurança da Informação com interesse em
-              governança, análise de dados e gestão de riscos.
-              Minha trajetória começou no desenvolvimento de software,
-              experiência que me proporcionou uma visão prática sobre sistemas,
-              processos e tecnologia.
+              comecei a aprender sobre desenvolvimento antes da faculdade de ciencias da computação, 
+              com o curso de python do grande professor de todos nós, gustavo guanabara.
+              com o incetivo do meu irmão que foi e é meu mentor, engressei na minha primeira faculdade,
+              la aprendi e trouxe varias skills, desenvolvi alguns projetos,
+               comecei a me envolver com APis, estruturas de dados, UI e UX, frameworks,arquiteturas,
+               com o tempo, fui enxergando que o desenvolvimento era apenas uma parte de tudo que eu era capaz.
+
+              o resto da minha história, você pode ler nas outra paginas.
+              
             </p>
 
             <p className="text-xl text-muted-foreground leading-relaxed">
