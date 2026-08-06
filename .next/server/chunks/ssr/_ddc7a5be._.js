@@ -1,3 +1,0 @@
-module.exports=[70864,a=>{a.n(a.i(33290))},43619,a=>{a.n(a.i(79962))},13718,a=>{a.n(a.i(85523))},18198,a=>{a.n(a.i(45518))},62212,a=>{a.n(a.i(66114))},97820,a=>{"use strict";var b=a.i(7997);function c(){return(0,b.jsx)("section",{children:(0,b.jsx)("h1",{children:"Análise de Dados,esse aqui ainda nao esta pronto volte mais tarde...."})})}a.s(["default",()=>c])}];
-
-//# sourceMappingURL=_ddc7a5be._.js.map
